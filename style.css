@@ -1,0 +1,145 @@
+body {
+  font-family: "Lato",system-ui;
+  background-image: linear-gradient(to right, #900C3F, #C70039, #FF5733);
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600; /* Letras más gruesas */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #400019, #540022);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 600; /* Letras más gruesas */
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #780d36, #910c3f);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+#decrypt-button {
+  /* Estilos para el botón de desencriptar */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #400019, #540022);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 600; /* Letras más gruesas */
+}
+
+#decrypt-button:hover {
+  /* Estilos para cuando el cursor esté sobre el botón de desencriptar */
+  background-image: linear-gradient(to right, #780d36, #910c3f);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 350px;
+  height: 100px;
+  margin: 20px 10px 20px 10px;
+  font-size: 16px;
+  resize: none;
+  border-radius: 10px;
+  border-color: #581845;
+  padding: 20px;
+}
+
+.encriptador__text-area {
+    width: 95%;
+    min-width: 55%;
+    max-width: 100%;
+    height: 100px;
+    max-height: 300px;
+    min-height: 50px;
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 10px 20px 10px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.requirement {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 8px;
+}
+
+.result span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.result p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+#resulting p {
+  /* Estilos para el elemento con id "result" */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  animation: sway 1s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+
+.header__logo {
+  width: 35px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
